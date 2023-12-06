@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aqua;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+
+
+main{
+    background-color: brown;
+    height: 150vh;
+    margin-top: 10vh;
+}
+
+footer{
+    background-color: tomato;
+    height: 10vh;
+    /* position: fixed;
+    bottom: 0px;
+    width: 100vw; */
+}

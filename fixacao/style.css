@@ -16,6 +16,14 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
+  }
+
+  aside{
+    background-color: violet;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
   }
   
   section{
@@ -29,9 +37,36 @@
   nav{
     padding: 20px;
     background-color: white;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+  }
+
+  .posicao-texto-centralizado{
+    text-align: center;
+  }
+
+  #section-button:active{
+    background-color: green;
+  }
+
+  #section-button:hover{
+    cursor: pointer;
+  }
+
+  #section-button{
+    position: relative;
+  }
+
+  #section-button button{
+    cursor: pointer;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
   }
